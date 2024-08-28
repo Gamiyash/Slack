@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main {
+    /* width: 97vw; */
+     height: 100vh; 
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    /* margin-left: 55px; */
+     /* position: relative;  */
+    align-items: center;
+    /* background-color: whitesmoke; */
+    border-radius: 30px;
+    padding: 5px;
+    top: 25px;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    
+}
+
+
+/* nav:hover{
+    background-color: aqua;
+    border-radius: 30px;
+}
+li span:hover{
+    background-color:rgb(163, 211, 253);
+    border-radius:35px ;
+
+} */
+
+
+nav img {
+    margin-right: 14px;
+}
+
+.main ul {
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+}
+
+.main ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 14px;
+    margin-left: 14px;
+    font-weight: bolder;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search {
+    margin-left: 90px;
+}
+
+.navmain {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+.a {
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.navbtn1 {
+    background-color: white;
+    font-size: 14px;
+    color: #611f69;
+    padding: 12px 15px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid purple;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+.navbtn2 {
+    background-color: #611f69;
+    color: #fff;
+    font-size: 14px;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid rgb(67, 5, 67);
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 48px;
+    /* margin-left: 220px; */
+    font-size: 48px;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    white-space: nowrap;
+    font-weight: 700;
+    text-align: center;
+}
+
+.middlebtn {
+    text-align: center;
+    margin-top: 20px;
+    /* margin-left: 190px; */
+
+}
+
+.mdlbtn {
+    background-color: #611f69;
+    color: #fff;
+    font-size: 14px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid rgb(67, 5, 67);
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.mdltxt {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: px;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.mdlimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 33px;
+    text-align: center;
+    margin-left: 180px;
+    width: 70vw;
+}
+
+.mdlvideo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+video {
+    border-radius: 7px;
+}
+
+.sec-main {
+    height: 300vh;
+    background-color: rgb(246, 240, 231);
+}
+
+.sec-first {
+    /* background-color: red; */
+    height: 57vh;
+}
+
+.sec-second {
+    height: 81vh;
+    display: flex;
+    align-items: center;
+}
+
+.target {
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 90px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+.tg2 {
+    font-size: 18px;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+.tg3 {
+    font-size: 18px;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-weight: 100;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.tg3 .a2 {
+    color: #1264a3;
+    text-decoration: none;
+}
+
+.arrow {
+    color: #1264a3;
+}
+
+.sec-v1 {
+    justify-content: left;
+    align-items: center;
+}
+
+.sec-third {
+    height: 81vh;
+}
+
+.sec-fourth {
+    height: 81vh;
+}
+
+.sec-third .target {
+    margin-left: 50px;
+    margin-right: 110px;
+}
+
+.sec-five {
+    height: 75vh;
+    /* background-color: #1264a3; */
+}
+
+.sec-fivetxt1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+.sec-fivetxt2 {
+    text-align: center;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+.buttons2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    gap: 10px;
+}
+
+.btn2-1 {
+    padding: 20px 40px;
+}
+
+.btn2-2 {
+    padding: 20px 40px;
+}
+
+.persantage {
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    color: #611f69;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.pertxt {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 18px;
+}
+
+.lastvideo {
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    display: flex;
+    /* justify-content: center;
+   align-items: center; */
+
+}
+
+.last-video {
+    justify-content: left;
+    border-radius: 0;
+    clip-path: inset(25px 0 25px 0 round 0 900px 900px 0);
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 100px; */
+
+}
+
+.text-last {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+.text-last1 {
+    font-style: italic;
+    font-size: 28px;
+    line-height: 1.364;
+    letter-spacing: -.3px;
+    font-weight: 300;
+}
+
+.text-last2 {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.text-last4 {
+    margin-top: 30px;
+}
+
+.text-last4 .a2 {
+    color: #1264a3;
+    text-decoration: none;
+}
+
+.sec-six {
+    height: 70vh;
+    display: flex;
+    /* background-color: rebeccapurple; */
+
+
+}
+
+#unknown {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.sec-seven {
+    height: 100vh;
+    background-color: rgb(246, 240, 231);
+
+}
+
+.sec-seven .card-text {
+    text-align: center;
+    font-size: 36px;
+    /* margin-top: 20px; */
+    font-weight: 700;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+.card-text{
+    padding-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card-img {
+    text-align: center;
+    padding: 10px;
+}
+
+.card1 {
+    background-color: white;
+    width: 21vw;
+    height: 70vh;
+}
+.card1:hover{
+    background-color: white;
+    transform: scale(1.1);
+   
+
+}
+
+.card-sub-text {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.card-sub-a {
+    padding-left: 10px;
+    margin-top: 80px;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+.card2 .card-sub-a {
+    margin-top: 50px;
+}
+
+.card-sub-text2 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+}
